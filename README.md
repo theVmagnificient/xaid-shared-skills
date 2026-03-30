@@ -20,7 +20,7 @@ In Claude Code, run:
 
 | Skill | Trigger | Description |
 |-------|---------|-------------|
-| *(add skills here as they're created)* | | |
+| `radpeer-grade` | "compare two radiology reports", "grade report discrepancy", "RADPEER" | Compare two radiology reports finding-by-finding using RADPEER-adapted grading (Grade 1–4) |
 
 ## Adding a New Skill
 
