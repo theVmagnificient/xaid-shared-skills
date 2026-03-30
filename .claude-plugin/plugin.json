@@ -1,0 +1,8 @@
+{
+  "name": "xaid-shared-skills",
+  "description": "Shared Claude Code skills for the xAID team — sales, analysis, reporting, and workflow automation",
+  "version": "1.0.0",
+  "author": {
+    "name": "xAID Team"
+  }
+}
