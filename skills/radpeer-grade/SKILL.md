@@ -60,7 +60,10 @@ Three possible outcomes per finding:
 | 2a | Minor Stylistic | Different wording or format only, no clinical difference |
 | 2b | Minor Clinical | Finding added, modified, or characterized differently — does NOT change patient management |
 | 3 | Significant Underreport | Finding missed or downgraded in A — would change patient management |
-| 4 | Significant Overreport | False or overcalled finding in A — would cause unnecessary workup |
+| 4a | Minor Overreport | False or overcalled finding in A — clinically minor, no management impact (e.g. atelectasis falsely called, small calcified nodule mentioned that is not present) |
+| 4b | Significant Overreport | False or overcalled finding in A — would cause additional follow-up, workup, or treatment (e.g. spurious pleural effusion, dilated PA suggesting PH that is not present) |
+
+NOTE: grade 4 has been split into 4a (minor overcall, no management impact) and 4b (significant overcall, would change management). Treat them analogously to the 2b/3 split on the underreport side: 4a ↔ 2b in severity, 4b ↔ 3 in severity.
 
 **Management change** = changes recommended follow-up, triggers additional imaging, biopsy, referral, or alters treatment.
 
@@ -73,7 +76,7 @@ Finding: <category> — <anatomical location>
 In A: <exact description or "not mentioned">
 In B: <exact description or "not mentioned">
 Discrepancy: <what differs>
-Grade: <1 / 2a / 2b / 3 / 4>
+Grade: <1 / 2a / 2b / 3 / 4a / 4b>
 Management impact: <none / <description of impact>
 ```
 
@@ -87,7 +90,8 @@ Grade 1:  N (X%)
 Grade 2a: N (X%)
 Grade 2b: N (X%)
 Grade 3:  N (X%)
-Grade 4:  N (X%)
+Grade 4a: N (X%)
+Grade 4b: N (X%)
 
 Overall study grade: <worst grade>
 Clinical concordance (1+2a): X%
